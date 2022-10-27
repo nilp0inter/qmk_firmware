@@ -6,22 +6,20 @@
     [ "\\fg" ],
     [ "\\ff" ],
     [ "\\fb" ],
-    [ "\\fh" ]
+    [ "\\fh" ],
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal python3:", {"action": "tap", "keycodes": ["ENTER"]} ],
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal nix:", {"action": "tap", "keycodes": ["ENTER"]} ],
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal haskell:", {"action": "tap", "keycodes": ["ENTER"]} ],
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal man:", {"action": "tap", "keycodes": ["ENTER"]} ],
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal tldr:", {"action": "tap", "keycodes": ["ENTER"]} ]
   ],
   "layers": [
     [
-      "KC_P1", "KC_PSLS", "KC_PAST", "KC_PMNS", "KC_ESC",
-      "KC_P7",   "KC_P8",   "KC_P9",   "KC_PPLS", "RGB_TOG",
-      "KC_P4",   "KC_P5",   "KC_P6",   "KC_PENT", "RGB_MOD",
-      "KC_P1",   "KC_P2",   "LCTL(KC_T)",   "LCTL(KC_V)",   "LCTL(KC_X)",
-      "LCTL(KC_C)",   "MACRO_3", "MACRO_2", "MACRO_1", "MACRO_0"
-    ],
-    [
-      "KC_F1",   "KC_F2",   "KC_F3",   "KC_F4",   "KC_F5",
-      "KC_F6",   "KC_F7",   "KC_F8",   "KC_F9",   "KC_F10",
-      "KC_F11",  "KC_F12",  "KC_MUTE", "KC_VOLD", "KC_VOLU",
-      "KC_MPLY", "KC_MSTP", "KC_MPRV", "KC_MNXT", "KC_TRNS",
-      "KC_RSFT", "KC_RALT", "KC_RGUI", "KC_APP",  "KC_RCTL"
+      "MACRO_4",    "MACRO_5", "MACRO_6",    "MACRO_7",    "MACRO_8",
+      "KC_NO",      "KC_NO",   "LCA(KC_L)",  "KC_NO",      "KC_NO",
+      "LCTL(KC_O)", "KC_NO",   "KC_NO",      "KC_NO",      "KC_NO",
+      "KC_NO",      "KC_NO",   "LCTL(KC_T)", "LCTL(KC_V)", "LCTL(KC_X)",
+      "LCTL(KC_C)", "MACRO_3", "MACRO_2",    "MACRO_1",    "MACRO_0"
     ]
   ]
 }
