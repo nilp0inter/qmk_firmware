@@ -7,17 +7,16 @@
     [ "\\ff" ],
     [ "\\fb" ],
     [ "\\fh" ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal python3:", {"action": "tap", "keycodes": ["ENTER"]} ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal nix:", {"action": "tap", "keycodes": ["ENTER"]} ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal haskell:", {"action": "tap", "keycodes": ["ENTER"]} ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal man:", {"action": "tap", "keycodes": ["ENTER"]} ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 100}, "zeal tldr:", {"action": "tap", "keycodes": ["ENTER"]} ]
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 200}, "zeal python3:", {"action": "tap", "keycodes": ["ENTER"]} ],
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 200}, "zeal nix:", {"action": "tap", "keycodes": ["ENTER"]} ],
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 200}, "zeal haskell:", {"action": "tap", "keycodes": ["ENTER"]} ],
+    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 200}, "zeal tldr:", {"action": "tap", "keycodes": ["ENTER"]} ]
   ],
   "layers": [
     [
-      "MACRO_4",    "MACRO_5", "MACRO_6",    "MACRO_7",    "MACRO_8",
+      "KC_F1",      "MACRO_4", "MACRO_5",    "MACRO_6",    "MACRO_7",
       "KC_NO",      "KC_NO",   "LCA(KC_L)",  "KC_NO",      "KC_NO",
-      "LCTL(KC_O)", "KC_NO",   "KC_NO",      "KC_NO",      "KC_NO",
+      "LCTL(KC_O)", "KC_NO",   "LGUI(KC_F3)",      "LGUI(KC_F4)",      "LGUI(KC_F5)",
       "KC_NO",      "KC_NO",   "LCTL(KC_T)", "LCTL(KC_V)", "LCTL(KC_X)",
       "LCTL(KC_C)", "MACRO_3", "MACRO_2",    "MACRO_1",    "MACRO_0"
     ]
