@@ -7,18 +7,17 @@
     [ "\\ff" ],
     [ "\\fb" ],
     [ "\\fh" ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 200}, "zeal python3:", {"action": "tap", "keycodes": ["ENTER"]} ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 200}, "zeal nix:", {"action": "tap", "keycodes": ["ENTER"]} ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 200}, "zeal haskell:", {"action": "tap", "keycodes": ["ENTER"]} ],
-    [ {"action": "tap", "keycodes": ["LGUI", "D"]}, {"action": "delay", "duration": 200}, "zeal tldr:", {"action": "tap", "keycodes": ["ENTER"]} ]
+    [ "\\t" ],
+    [ "\\T" ],
+    [ "\\a" ]
   ],
   "layers": [
     [
-      "KC_F1",      "MACRO_4", "MACRO_5",    "MACRO_6",    "MACRO_7",
-      "KC_NO",      "KC_NO",   "LCA(KC_L)",  "KC_NO",      "KC_NO",
-      "LCTL(KC_O)", "KC_NO",   "LGUI(KC_F3)",      "LGUI(KC_F4)",      "LGUI(KC_F5)",
-      "KC_NO",      "KC_NO",   "LCTL(KC_T)", "LCTL(KC_V)", "LCTL(KC_X)",
-      "LCTL(KC_C)", "MACRO_3", "MACRO_2",    "MACRO_1",    "MACRO_0"
+      "C(KC_F1)",   "C(KC_F2)",   "C(KC_F3)",   "C(KC_F4)",   "C(KC_F5)",
+      "MACRO_6",    "C(KC_F7)",   "C(KC_F8)",   "C(KC_F9)",   "C(KC_F10)",
+      "MACRO_5",    "LGUI(KC_O)", "A(KC_F3)",   "A(KC_F4)",   "A(KC_F5)",
+      "MACRO_4",    "LCA(KC_L)",  "LCTL(KC_T)", "LCTL(KC_V)", "LCTL(KC_X)",
+      "LCTL(KC_C)", "MACRO_3",    "MACRO_2",    "MACRO_1",    "MACRO_0"
     ]
   ]
 }
