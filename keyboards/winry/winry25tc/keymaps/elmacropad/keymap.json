@@ -13,11 +13,11 @@
   ],
   "layers": [
     [
-      "C(KC_F1)",   "C(KC_F2)",   "C(KC_F3)",   "C(KC_F4)",   "C(KC_F5)",
-      "MACRO_6",    "C(KC_F7)",   "C(KC_F8)",   "C(KC_F9)",   "C(KC_F10)",
-      "MACRO_5",    "LGUI(KC_O)", "A(KC_F3)",   "A(KC_F4)",   "A(KC_F5)",
-      "MACRO_4",    "LCA(KC_L)",  "LCTL(KC_T)", "LCTL(KC_V)", "LCTL(KC_X)",
-      "LCTL(KC_C)", "MACRO_3",    "MACRO_2",    "MACRO_1",    "MACRO_0"
+      "MACRO_0",     "MACRO_1",     "MACRO_2",     "MACRO_3",         "LCTL(KC_C)", 
+      "LCTL(KC_X)",  "LCTL(KC_V)",  "LCTL(KC_T)",  "LCA(KC_L)",       "MACRO_4",    
+      "A(KC_F5)",    "A(KC_F4)",    "A(KC_F3)",    "LGUI(KC_O)",      "MACRO_5",    
+      "C(KC_F10)",   "C(KC_F9)",    "C(KC_F8)",    "C(KC_F7)",        "MACRO_6",    
+      "C(KC_F5)",    "C(KC_F4)",    "C(KC_F3)",    "C(KC_F2)",        "C(KC_F1)"
     ]
   ]
 }
